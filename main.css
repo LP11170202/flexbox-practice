@@ -1,0 +1,21 @@
+.flex-container{
+    display: flex;
+}
+
+.flex-container div{
+    background-color: black;
+    border: 2px solid red;
+    height: 400px;
+}
+
+.one{
+    flex: 3 3 auto;
+}
+
+.two{
+    flex: 2 2 auto;
+}
+
+.three{
+    flex: 1 1 auto;
+}
